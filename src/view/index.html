@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= require('html-loader!./layout/html-header.html') %>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- hello webpack~~~ -->
+      <a href="login.html">登录<span class="fa fa-user"></span></a>
+      <div class="superman"></div>
+      <div class="webpack"></div>
+    </div>
+    <%= require('html-loader!./layout/footer.html') %>
+</body>
+</html>
